@@ -1,0 +1,28 @@
+#heading {
+  color: white;
+  background-color: black;
+}
+
+#heading2 {
+  color: red;
+  background-color: blue;
+}
+
+#lastdiv {
+  color: red;
+  background-color: green;
+  width: 100px;
+  height: 100px;
+}
+
+#button1 {
+  color: red;
+  background-color: blue;
+}
+
+.paragraph {
+  color: blue;
+  background-color: yellow;
+}
+
+
