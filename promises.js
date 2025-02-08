@@ -1,11 +1,22 @@
-// promises are a solution to callback hell
-// promises are objects that represent the eventual completion or failure of an asynchronous operation
+// promises are used to handle asynchronous operations in javascript
+
+// promises are objects that represent the eventual completion or failure of an asynchronous operation (important important)
+
+
+/// promises are a container for a future value
+//promises is a returned object to which you attach callbacks, instead of passing callbacks to a function
+
+
 
 // promises have three states: pending, fulfilled, and rejected
 
 // resolve and reject are the two parameters of the promise constructor
 
 //when we make api calls, calls sometimes return a promise and we have to handle the promise
+// promises are a solution to callback hell
+
+// promises are immutable
+// ie we cannot change the promise object once it is created
 
 //eg
 
