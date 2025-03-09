@@ -24,7 +24,7 @@ console.log(a); // 10
 
 
 
-// 2️ Hoisting with let & const (Variables)
+// 2️) Hoisting with let & const (Variables)
 console.log(b); // ReferenceError ❌
 let b = 20;
 console.log(b);
@@ -41,7 +41,18 @@ console.log(b);
 
 
 
-// 3️ Hoisting with function declarations
+console.log(x); // ✅ undefined (because `var` is hoisted with `undefined`)
+var x = 5;
+console.log(x); // 5
+
+console.log(y); // ❌ ReferenceError: Cannot access 'y' before initialization
+const y = 10;
+console.log(y);
+
+
+
+
+// 3️) Hoisting with function declarations
 
 
 
